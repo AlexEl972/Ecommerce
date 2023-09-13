@@ -1,0 +1,42 @@
+.foutre {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.greenbox,
+.redbox {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: right;
+}
+
+.greenbox{
+    background-color: green;
+}
+
+.redbox{
+    background-color: red;
+}
+
+.lepainperdu:hover{
+    background-color: rgba(9, 154, 238, 0.209);
+    cursor: pointer;
+}
+
+.search__image {
+    max-width: 50px;
+}
+
+.search__suggestion {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.search__suggestion:hover {
+    background-color: rgb(138, 138, 231);
+    color:white;
+}
+
